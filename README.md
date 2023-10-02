@@ -25,3 +25,11 @@ configurable mock server
 ```
 
 > see example [here](./examples/config.yaml) 
+
+
+## TODO
+- [ ] tests
+- [ ] code documentation
+- [ ] openapi hosted documentation
+- [ ] more configurable params (addr, port)
+- [ ] more mimetypes?
