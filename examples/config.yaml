@@ -1,0 +1,29 @@
+/:
+  get:
+    code: 500
+    body:
+      content_type: "application/json"
+      echo: true
+      value:
+        error: "error"
+        items:
+          - field1: "1"
+            field2: 2
+        description: "asdsad"
+
+  post:
+    code: 200
+    body:
+      content_type: "text/plain"
+      value: "ok"
+
+  delete:
+    code: 200
+    body:
+      echo: true
+
+  default:
+    code: 200
+    body:
+      content_type: "application/json"
+      value: "[1,2,3]"
