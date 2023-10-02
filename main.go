@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 	"os"
-	parser "servermock_go/config_parser"
+	parser "github.com/randomowo/servermock-go/config_parser"
 )
 
 type MockServerHandler struct {

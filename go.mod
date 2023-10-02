@@ -1,4 +1,4 @@
-module servermock_go
+module "github.com/randomowo/servermock-go"
 
 go 1.21.0
 
