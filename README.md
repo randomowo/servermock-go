@@ -28,6 +28,7 @@ configurable mock server
 
 
 ## TODO
+- [ ] error on event (example: every n requests)
 - [ ] tests
 - [ ] code documentation
 - [ ] openapi hosted documentation
